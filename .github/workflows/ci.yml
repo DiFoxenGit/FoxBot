@@ -1,0 +1,19 @@
+name: Showcase checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  contents:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Check public files
+        shell: bash
+        run: |
+          test -s README.md
+          test -s docs/banner.png
+          test -s docs/THIRD_PARTY_NOTICES.md
+          if git ls-files | grep -E '\.(rs|tsx?|exe|dll|key|pem|pfx)$'; then
+            echo 'Unexpected source or binary in showcase'
+            exit 1
+          fi

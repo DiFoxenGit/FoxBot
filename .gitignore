@@ -1,0 +1,6 @@
+*.exe
+*.zip
+*.log
+.env*
+*.key
+*.pem

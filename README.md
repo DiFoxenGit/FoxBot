@@ -20,7 +20,9 @@ FoxBot — отдельное приложение для наблюдения �
 | Нейросеть | GenAPI, чат, системный промпт, изображения, решения через общие API-команды |
 | Автоматический | Заготовка для следующих версий |
 
-Автопоиск ESP32, график истории, фильтры, CSV/JSON, локальная веб-панель и 31 команда API. Покупки используют свежую котировку, журнал операций и проверку точной суммы списания.
+Подготовка продажи: долговечные черновики, учёт затрат и прогноз прибыли. Почта: открытие, чтение письма покупки и исправленный OCR цены; получение вложений предварительное, подтверждение в рюкзаке ещё отсутствует. Выставление лотов и получение выручки пока не реализованы.
+
+Автопоиск ESP32, график истории, фильтры, CSV/JSON, локальная веб-панель и 44 команды API. Покупки используют свежую котировку, журнал операций и проверку точной суммы списания.
 
 ```mermaid
 flowchart LR
@@ -43,9 +45,9 @@ flowchart LR
 **F12 — остановка управления.** Установщик пока без цифровой подписи. Контрольная сумма опубликована в `SHA256SUMS`; автоматического обновления нет.
 
 <a id="limits"></a>
-## 🔎 Статус первой версии
+## 🔎 Статус версии
 
-Это ранняя версия 0.1.0. Начальный профиль распознавания рассчитан на русский аукцион при масштабе 100%. Реальные покупки в игре и платные запросы GenAPI ещё не проверены; тесты логики и распознавание предоставленных кадров пройдены. При неопределённом результате списания новые покупки блокируются — ручное разрешение таких случаев планируется отдельно.
+Это ранняя версия 0.2.0. Начальный профиль распознавания рассчитан на русский аукцион при масштабе 100%. Реальные покупки в игре и платные запросы GenAPI ещё не проверены; тесты логики и распознавание предоставленных кадров пройдены. При неопределённом результате списания новые покупки блокируются — ручное разрешение таких случаев планируется отдельно.
 
 <details><summary>Данные и компоненты</summary>
 
@@ -56,6 +58,6 @@ flowchart LR
 
 ## English
 
-FoxBot is a Windows desktop auction assistant with ESP32 input, OCR, local price history, a watchlist parser, local API and optional GenAPI integration. Source code is private; this repository distributes documentation and installers. Version 0.1.0 is an early release with a Russian 100% auction UI recognition profile. Live trades and paid GenAPI calls have not been validated. Downloads are unsigned; updates are manual.
+FoxBot is a Windows desktop auction assistant with ESP32 input, OCR, local price history, a watchlist parser, local API and optional GenAPI integration. Source code is private; this repository distributes documentation and installers. Version 0.2.0 is an early release with a Russian 100% auction UI recognition profile. Live trades and paid GenAPI calls have not been validated. Downloads are unsigned; updates are manual.
 
 <div align="center"><sub>© 2026 DiFoxen · FoxBot</sub></div>

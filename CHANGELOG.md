@@ -1,5 +1,27 @@
 # Изменения / Changelog
 
+## 0.3.0 — 2026-11-01
+
+### Новое
+- Новый интерфейс Forest dark: боковая навигация по рабочим режимам и инструментам.
+- Компактная строка баланса и общая кнопка остановки.
+- Переработанные формы, таблицы, список отслеживания и пустые состояния.
+- Настройки AI-агента сворачиваются отдельно от чата; компоновка адаптируется к ширине окна.
+- Русские и английские подписи обновлены. Черновики сохраняются при переходе между разделами.
+
+### Исправления
+- Исправлен цвет второстепенного текста, ранее ссылавшийся на отсутствующий токен оформления.
+
+### Важно
+- Установщик Windows x64 без цифровой подписи. Обновление вручную; предыдущая версия доступна для отката.
+- Ограничения торговли и предварительного получения почтовых вложений из версии 0.2.0 сохраняются. Сквозные операции в игре и установка на чистой Windows в этом выпуске не проверены.
+
+### English
+- Redesigned Forest dark workspace with grouped sidebar navigation, compact balance and shared stop control.
+- Updated forms, tables, watchlist, empty states and responsive layouts. Agent settings collapse separately from chat.
+- Updated Russian/English labels; navigation retains drafts. Fixed muted text colors.
+- Unsigned Windows x64 installer, manual updates. Trading and preliminary mail collection limitations from 0.2.0 remain. Live game operations and clean-Windows installation were not validated for this release.
+
 ## 0.2.0 — 2026-10-24
 
 ### Новое

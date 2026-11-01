@@ -10,6 +10,10 @@
 
 FoxBot — отдельное приложение для наблюдения за ценами, поиска предметов и управления аукционом через ESP32. Этот репозиторий содержит документацию и установщики. Исходный код закрыт.
 
+Новый интерфейс: боковая навигация, компактный баланс, общая остановка и сворачиваемые настройки AI-агента.
+
+![Интерфейс FoxBot 0.3.0 — AI-агент](docs/interface-0.3.0.png)
+
 <a id="features"></a>
 ## ✨ Возможности
 
@@ -47,7 +51,7 @@ flowchart LR
 <a id="limits"></a>
 ## 🔎 Статус версии
 
-Это ранняя версия 0.2.0. Начальный профиль распознавания рассчитан на русский аукцион при масштабе 100%. Реальные покупки в игре и платные запросы GenAPI ещё не проверены; тесты логики и распознавание предоставленных кадров пройдены. При неопределённом результате списания новые покупки блокируются — ручное разрешение таких случаев планируется отдельно.
+Это ранняя версия 0.3.0. Начальный профиль распознавания рассчитан на русский аукцион при масштабе 100%. Реальные покупки в игре и платные запросы GenAPI ещё не проверены; тесты логики и распознавание предоставленных кадров пройдены. При неопределённом результате списания новые покупки блокируются — ручное разрешение таких случаев планируется отдельно.
 
 <details><summary>Данные и компоненты</summary>
 
@@ -58,6 +62,6 @@ flowchart LR
 
 ## English
 
-FoxBot is a Windows desktop auction assistant with ESP32 input, OCR, local price history, a watchlist parser, local API and optional GenAPI integration. Source code is private; this repository distributes documentation and installers. Version 0.2.0 is an early release with a Russian 100% auction UI recognition profile. Live trades and paid GenAPI calls have not been validated. Downloads are unsigned; updates are manual.
+FoxBot is a Windows desktop auction assistant with ESP32 input, OCR, local price history, a watchlist parser, local API and optional GenAPI integration. Source code is private; this repository distributes documentation and installers. Version 0.3.0 is an early release with a Russian 100% auction UI recognition profile. Live trades and paid GenAPI calls have not been validated. Downloads are unsigned; updates are manual.
 
 <div align="center"><sub>© 2026 DiFoxen · FoxBot</sub></div>
